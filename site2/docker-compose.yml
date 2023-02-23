@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  site2:
+    build: .
+    ports:
+      - "5002:80"
+
